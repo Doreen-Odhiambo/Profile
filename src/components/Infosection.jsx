@@ -13,7 +13,7 @@ function Infosection() {
         <a  id='info-link' href='#'>doryn@dev.com</a>
         <div className='btns'>
         <a className='btn' id ='email' href='#'> <MdMarkEmailRead id='icon'/>Email</a>
-        <a  className = 'btn' id='linkedin' href='#'> <CiLinkedin  id= 'icn'/>LinkedIn</a>
+        <a  className = 'btn' id='linkedin' href='https://www.linkedin.com/in/odhiambo-doreen-451902230/'> <CiLinkedin  id= 'icn'/>LinkedIn</a>
         </div>
     </div>
   )

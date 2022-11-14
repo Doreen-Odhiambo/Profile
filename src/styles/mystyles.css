@@ -146,6 +146,48 @@
     color: blue;
 }
 
+@media screen and (max-width:800px) {
+    .prof-pic{
+        max-width: 100%;
+        display: block;
+    }
+    .persona-header, .persona-para, #info-link{
+        display: block;
+        justify-content: center;
+        padding: 8px;
+        text-align: center;
+    }
+    .btns{
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-between;
+        gap: 22px;
+        align-items: center;
+    }
+
+    .btn{
+        width: 70%;
+        align-items: center;
+    }
+    .persona{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .info-link{
+        width: 100%;
+        margin-left:  8px;
+        margin-right: 8px;
+
+    }
+    
+}
+
 
 
 

@@ -9,7 +9,7 @@ import {ImGithub} from 'react-icons/im'
 function Footer() {
   return (
     <div className='footer'>
-        <a  href ='https://mobile.twitter.com/doryachie43/photo'><ImTwitter className='social-icon' id='twitter'/></a>
+        <a  href ='https://mobile.twitter.com/doryachie43'><ImTwitter className='social-icon' id='twitter'/></a>
         <a href ='https://www.facebook.com/profile.php?id=100071574071552'><FaFacebookSquare className='social-icon' id='facebook'/></a>
         <a href ='#'><BsInstagram className='social-icon'id='instagram'/></a>
         <a href ='https://github.com/Doreen-Odhiambo'><ImGithub className='social-icon' id='github'/></a>
