@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+
+.infosec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#prof-pic{
+    width: 100%;
+    border-radius: 23px 23px 0 0;
+    
+
+
+}
+#info-head{
+    font-size: 30px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+}
+#info-desc{
+    font-size: 23px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+
+}
+#info-link{
+    text-decoration: none;
+    color: chocolate;
+    padding: 12px;
+    width: 50%;
+}
+#info-link:hover{
+    color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.btn{
+    padding: 12px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: center;
+
+}
+#email{
+    border: 1px solid coral;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    background-color:white;
+}
+#linkedin{
+    border: 1px solid coral;
+    border-radius: 12px;
+    color: black;
+    cursor: pointer;
+    align-items: center;
+    background-color:blue;
+}
+#email > #icon{
+    padding-right: 8px;
+
+
+
+}
+#linkedin > #icn{
+    padding-left: 8px;
+}
+
+
+
